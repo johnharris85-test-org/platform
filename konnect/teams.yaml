@@ -1,1 +1,12 @@
 teams:
+  facilities:
+    description: facilities
+    services:
+      johnharris85-test-org/bookings:
+        name: bookings
+        git:
+          remote: https://github.com/johnharris85-test-org/bookings.git
+        description: ""
+        spec-path: openapi.yaml
+        prod-branch-name: main
+        dev-branch-name: dev
