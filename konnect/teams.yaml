@@ -1,1 +1,12 @@
 teams:
+  core:
+    description: core
+    services:
+      johnharris85-test-org/flights:
+        name: flights
+        git:
+          remote: https://github.com/johnharris85-test-org/flights.git
+        description: ""
+        spec-path: openapi.yaml
+        prod-branch-name: main
+        dev-branch-name: dev
