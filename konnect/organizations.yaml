@@ -1,1 +1,12 @@
 organizations:
+    my-test-org:
+        access-token:
+            type: env
+            value: MY-TEST-ORG_KONNECT_TOKEN
+        environments:
+            dev:
+                type: DEV
+                region: us
+            prd:
+                type: PROD
+                region: us
