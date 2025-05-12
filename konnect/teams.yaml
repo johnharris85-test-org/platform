@@ -1,6 +1,6 @@
 teams:
-  facilities:
-    description: facilities
+  core:
+    description: core
     services:
       johnharris85-test-org/bookings:
         name: bookings
@@ -10,13 +10,21 @@ teams:
         spec-path: openapi.yaml
         prod-branch-name: main
         dev-branch-name: dev
-  core:
-    description: core
-    services:
       johnharris85-test-org/flights:
         name: flights
         git:
           remote: https://github.com/johnharris85-test-org/flights.git
+        description: ""
+        spec-path: openapi.yaml
+        prod-branch-name: main
+        dev-branch-name: dev
+  facilities:
+    description: facilities
+    services:
+      johnharris85-test-org/bookings:
+        name: bookings
+        git:
+          remote: https://github.com/johnharris85-test-org/bookings.git
         description: ""
         spec-path: openapi.yaml
         prod-branch-name: main
